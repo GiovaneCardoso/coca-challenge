@@ -1,0 +1,24 @@
+.header {
+    background: #fff;
+}
+.header__container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.header__container img {
+    cursor: pointer;
+}
+.nav_link {
+    color: #E02B20;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 50px;
+    text-align: center;
+}
+.header__nav {
+    margin-left: 50px;
+}

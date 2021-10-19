@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+.videos, .quiz, .certifier {
+    text-align: left;    
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+.videos h4, .quiz h4, .certifier h4 {
+    color: #E02B20;
+    font-size: 32px;
+    font-weight: 500;
+    margin: 0;
+}
+.videos p, .quiz p, .certifier p {
+    color: #707070;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+    max-width: 300px;
+}
