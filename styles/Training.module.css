@@ -3,10 +3,11 @@
 }
 .training_content_inner {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
     padding-bottom: 50px;
     border-bottom: 1px solid rgba(0,0,0,0.2);
+    margin: 0 50px;
 }
 .training_content_inner_modules {
     padding: 20px 110px 20px 20px;

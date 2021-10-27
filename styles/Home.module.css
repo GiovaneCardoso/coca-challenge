@@ -85,6 +85,7 @@
   box-shadow: 0 4px 4px rgb(0 0 0 / 20%);
   border-radius: 10px;  
   max-width: 280px;
+  min-height: 280px;
 }
 .system_names p {
   font-size: 14px

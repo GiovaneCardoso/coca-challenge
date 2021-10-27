@@ -4,13 +4,14 @@ import { useRouter } from 'next/router'
 import styles from '../../../styles/TrainingContent.module.css'
 
 const ConteudoTreinamento = (props) => {
-    console.log(props.mainContent)
     const router = useRouter()
     return (
         <div className={styles.content_container}>
             <nav className={styles.navbar}>
                 <div className={styles.nav_wrapper}>
-                    <img src="/header_content.png" />
+                    <Link href="/">
+                        <img src="/header_content.png" />
+                    </Link>
                     <h5>Resumo do curso</h5>
                     <h6>
                         Módulo 1:
